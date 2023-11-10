@@ -6,7 +6,7 @@ In the world of digital marketing, the success of campaigns depends on various p
 
 
 # Project Pipeline
-![Final_Chart](Flowchart/Final_Flowchart.png)
+![Final_Chart](flowchart/Final_Flowchart.png)
 
 ## 1. Dataset description
 
