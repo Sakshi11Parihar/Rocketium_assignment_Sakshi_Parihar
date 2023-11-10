@@ -8,6 +8,15 @@ In the world of digital marketing, the success of campaigns depends on various p
 # Project Pipeline
 ![Final_Chart](flowchart/Final_Flowchart.png)
 
+# Table of Contents
+
+## [ 1. Dataset description ](#1-dataset-description)
+## [ 2.  Data Preprocessing ](#2-data-preprocessing)
+## [ 3. EDA ](#3-eda)
+## [ 4. MODEL BUILDING ](#4-model-building\)
+## [ 5. Result ](#5-result)
+
+
 ## 1. Dataset description
 
 attributes:
@@ -176,7 +185,7 @@ Lower average engagement is observed for "text," "image," and "video (external s
 pThese findings provide a comprehensive understanding of engagement patterns across various factors. They can be instrumental in optimizing content strategies and placements for enhanced user interaction.
 
 
-## 4. MODEL 
+## 4. MODEL BUILDING
 ![ML Pipeline_Chart](flowchart/ML_Pipeline.png)
 
 #### Feature Engineering and Model Building:
