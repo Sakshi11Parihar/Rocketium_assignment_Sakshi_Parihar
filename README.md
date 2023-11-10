@@ -179,7 +179,60 @@ pThese findings provide a comprehensive understanding of engagement patterns acr
 ## 4. MODEL 
 ![ML Pipeline_Chart](flowchart/ML_Pipeline.png)
 
+#### Feature Engineering and Model Building:
+For feature engineering, we utilized a function (show_collinear_features) to identify and drop highly correlated features based on a given threshold. Following that, the data was split into training and testing sets, scaled, and fitted.
+
+We employed various regression models for prediction, and the model hyperparameters were tuned using a grid search approach. The models included:
+
+Linear Regression
+Random Forest Regressor
+XGBoost Regressor
+Support Vector Machine (SVM)
+Decision Tree Regressor
+
+#### Like Count:
+Best Model: RandomForestRegressor
+
+
+#### Recommendation: 
+RandomForestRegressor is the preferred model for predicting 'likecount.'
+
+#### Comment Count:
+Best Model: RandomForestRegressor (RMSE, MAE) and XGBRegressor (R2 Score)
+
+
+#### Repost Count:
+Best Model: RandomForestRegressor
+
+#### Total Engagements:
+Best Model: RandomForestRegressor
+
+#### Conversion:
+Best Model: RandomForestRegressor
+
+-XGBRegressor:
+-R2 Score: Best on the train set
+
+#### Overall Result:
+Best Overall Model: RandomForestRegressor
+
+#### Consistency: 
+Demonstrates consistent superior performance across all target variables.
+Recommendation: RandomForestRegressor is the most reliable and robust model for predicting engagement metrics in this context.
+Strong Contender: XGBRegressor
+
+Strength: Particularly notable for 'commentcount.'
+Linear Regression:
+
+Performance: Performs reasonably well but is generally outperformed by RandomForestRegressor and XGBRegressor.
+These results guide the selection of the most suitable models for each target variable, providing insights into their individual and overall performances.
+
+
 
 ## 5. Result
+We evaluated each model's performance using the following metrics for each target variable (likecount, commentcount, repostcount, total engagements, conversion):
 
+Root Mean Squared Error (RMSE): Measures the average magnitude of the errors.
+Mean Absolute Error (MAE): Represents the average absolute differences between predicted and actual values.
+R-squared (R2): Indicates the proportion of the variance in the dependent variable that is predictable from the independent variable.
 
