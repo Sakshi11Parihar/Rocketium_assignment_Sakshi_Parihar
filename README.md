@@ -190,6 +190,16 @@ XGBoost Regressor
 Support Vector Machine (SVM)
 Decision Tree Regressor
 
+
+
+
+## 5. Result
+We evaluated each model's performance using the following metrics for each target variable (likecount, commentcount, repostcount, total engagements, conversion):
+
+Root Mean Squared Error (RMSE): Measures the average magnitude of the errors.
+Mean Absolute Error (MAE): Represents the average absolute differences between predicted and actual values.
+R-squared (R2): Indicates the proportion of the variance in the dependent variable that is predictable from the independent variable.
+
 #### Like Count:
 Best Model: RandomForestRegressor
 
@@ -227,12 +237,4 @@ Linear Regression:
 Performance: Performs reasonably well but is generally outperformed by RandomForestRegressor and XGBRegressor.
 These results guide the selection of the most suitable models for each target variable, providing insights into their individual and overall performances.
 
-
-
-## 5. Result
-We evaluated each model's performance using the following metrics for each target variable (likecount, commentcount, repostcount, total engagements, conversion):
-
-Root Mean Squared Error (RMSE): Measures the average magnitude of the errors.
-Mean Absolute Error (MAE): Represents the average absolute differences between predicted and actual values.
-R-squared (R2): Indicates the proportion of the variance in the dependent variable that is predictable from the independent variable.
 
