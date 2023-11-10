@@ -13,7 +13,7 @@ In the world of digital marketing, the success of campaigns depends on various p
 ## [ 1. Dataset description ](#1-dataset-description)
 ## [ 2.  Data Preprocessing ](#2-data-preprocessing)
 ## [ 3. EDA ](#3-eda)
-## [ 4. MODEL BUILDING ](#4-model-building\)
+## [ 4. MODEL BUILDING ](#4-model-building)
 ## [ 5. Result ](#5-result)
 
 
