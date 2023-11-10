@@ -121,6 +121,8 @@ attributes:
 ## 2. Data Preprocessing  
 
 In the data preprocessing phase, missing values in certain columns have been imputed with the label 'unknown' to maintain the integrity of the dataset. Additionally, columns deemed less relevant, such as links and various URLs (e.g., post URL, profile URL), were dropped to streamline the dataset. Furthermore, to enhance model efficiency and avoid multicollinearity, highly positively correlated columns were identified and removed. The objective was to refine the dataset, focusing on essential features for the subsequent modeling phase while ensuring the integrity of the analysis.
+![Data Preparation Chart](Flowchart/Data_Preparation.png)
+
 
 ## 3. EDA
 
