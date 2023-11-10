@@ -251,6 +251,8 @@ These results guide the selection of the most suitable models for each target va
 
 ## 6. Evaluation
 
+![Result](flowchart/result.png)
+
 ## 7. Recommendations and Insights
 
 #### 1. Optimal Content Type:
