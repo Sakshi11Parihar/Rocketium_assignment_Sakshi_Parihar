@@ -120,7 +120,22 @@ attributes:
 
 ## 2. Data Preprocessing  
 
-In the data preprocessing phase, missing values in certain columns have been imputed with the label 'unknown' to maintain the integrity of the dataset. Additionally, columns deemed less relevant, such as links and various URLs (e.g., post URL, profile URL), were dropped to streamline the dataset. Furthermore, to enhance model efficiency and avoid multicollinearity, highly positively correlated columns were identified and removed. The objective was to refine the dataset, focusing on essential features for the subsequent modeling phase while ensuring the integrity of the analysis.
+-In the data preprocessing phase, several steps were taken to ensure the dataset's quality and relevance for subsequent modeling:
+
+#### Handling Missing Values:
+
+-Identified and dropped less relevant columns such as 'videourl,' 'sharedposturl,' 'logos,' 'objects,' 'url,' and 'text.'
+-Imputed missing values in specific columns with the label 'unknown' to maintain dataset integrity. These columns include 'logo 2 name,' 'logo 2 position,' 'style,' 'face emotion,' 'face position,' 'sentiment,' 'logo 1 position,' 'secondary object position,' 'secondary object,' 'primary object position,' 'primary object,' 'person area %,' '# text length,' and 'cta.'
+
+#### Imputation for Specific Columns:
+
+-For columns like 'logo 2 name,' 'logo 2 position,' 'style,' 'face emotion,' 'face position,' 'sentiment,' 'logo 1 position,' 'secondary object position,' 'secondary object,' 'primary object position,' 'primary object,' 'person area %,' '# text length,' and 'cta,' missing values were filled with appropriate labels like 'No Logo,' 'No Position,' 'No style,' 'Unknown,' etc.
+
+#### Drop Highly Positively Correlated Columns:
+
+-To enhance model efficiency and prevent multicollinearity, columns that were highly positively correlated were identified and removed. This was done to streamline the dataset, focusing on essential features for subsequent modeling.
+
+These preprocessing steps aim to create a more refined dataset, ensuring it contains pertinent information for the modeling phase while addressing missing values appropriately and optimizing feature relevance.
 
 ![Data Preparation Chart](flowchart/Data_Preparation.png)
 
