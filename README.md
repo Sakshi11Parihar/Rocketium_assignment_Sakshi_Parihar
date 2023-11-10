@@ -139,23 +139,28 @@ In the data preprocessing phase, missing values in certain columns have been imp
 
 "Article" content garners the highest average engagements, followed by "document" and "video (LinkedIn source)."
 Lower average engagement is observed for "text," "image," and "video (external source)," with the least engagement found in "polls."
-Primary Object Position and Engagement:
 
-The bottom center position yields the highest average engagements.
-Subsequently, positions at the center and top-left also contribute to significant engagement.
-Moderate engagements are observed for center-left, top-center, and bottom-right positions.
-Center-right and top-right positions result in lower average engagements.
-Empty Space Percentage and Engagement:
+#### Primary Object Position and Engagement:
 
-The highest average engagement occurs in the small percentage area, followed by larger and medium-sized areas.
-The 10 to 20 percent empty space range shows the highest average engagement, exceeding 300.
-Engagement is around 270 for less than 10 percent, drops to 200 for over 40 percent, and remains below 200 in the 20 to 40 percent range.
-Number of Objects and Engagement:
+-The bottom center position yields the highest average engagements.
+-Subsequently, positions at the center and top-left also contribute to significant engagement.
+-Moderate engagements are observed for center-left, top-center, and bottom-right positions.
+-Center-right and top-right positions result in lower average engagements.
 
-Highest average engagement is observed when there is only 1 object.
-Engagements decrease in the order: 5 or more objects, 2 to 4 objects, and 0 objects.
-In descending order, the corresponding average engagement values are 250, 245, and 160.
-These findings provide a comprehensive understanding of engagement patterns across various factors. They can be instrumental in optimizing content strategies and placements for enhanced user interaction.
+#### Empty Space Percentage and Engagement:
+
+-The highest average engagement occurs in the small percentage area, followed by larger and medium-sized areas.
+-The 10 to 20 percent empty space range shows the highest average engagement, exceeding 300.
+-Engagement is around 270 for less than 10 percent, drops to 200 for over 40 percent, and remains below 200 in the 20 to 40 percent range.
+
+#### Number of Objects and Engagement:
+
+-Highest average engagement is observed when there is only 1 object.
+-Engagements decrease in the order: 5 or more objects, 2 to 4 objects, and 0 objects.
+-In descending order, the corresponding average engagement values are 250, 245, and 160.
+pThese findings provide a comprehensive understanding of engagement patterns across various factors. They can be instrumental in optimizing content strategies and placements for enhanced user interaction.
+
+
 ## 4. MODEL 
 ![ML Pipeline_Chart](flowchart/ML_Pipeline.png)
 
