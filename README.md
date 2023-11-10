@@ -127,6 +127,8 @@ In the data preprocessing phase, missing values in certain columns have been imp
 ## 3. EDA
 
 ## 4.MODEL 
+![ML Pipeline_Chart](Flowchart/ML_Pipeline.png)
+
 
 ##
 
