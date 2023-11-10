@@ -5,6 +5,8 @@
 In the world of digital marketing, the success of campaigns depends on various performance metrics. This dataset combines quantitative measures like impressions and engagements with creative details such as headlines, calls-to-action, images, and offers. We're on a journey to explore this dataset, uncovering trends and connections to understand how creative elements impact campaign success. By carefully preparing the data, building models, and evaluating results, our goal is to create a predictive model that can forecast campaign performance. The insights and recommendations from this exploration will be a guide for future digital marketing efforts. This repository provides a detailed investigation, offering a clearer picture of how creative ideas and campaign success go hand in hand.
 
 
+# Project Pipeline
+![Final_Chart](Flowchart/Final_Flowchart.png)
 
 ## 1. Dataset description
 
