@@ -15,8 +15,8 @@ In the world of digital marketing, the success of campaigns depends on various p
 ## [ 3. EDA ](#3-eda)
 ## [ 4. MODEL BUILDING ](#4-model-building)
 ## [ 5. Result ](#5-result)
-## [ 6. Evaluation ](#4-evaluation)
-## [ 7. Recommendations and Insights ](#4-recommendations-and-insights)
+## [ 6. Evaluation ](#6-evaluation)
+## [ 7. Recommendations and Insights ](#7-recommendations-and-insights)
 
 
 
@@ -249,9 +249,9 @@ Linear Regression:
 Performance: Performs reasonably well but is generally outperformed by RandomForestRegressor and XGBRegressor.
 These results guide the selection of the most suitable models for each target variable, providing insights into their individual and overall performances.
 
-## 5. Evaluation
+## 6. Evaluation
 
-## 6. Recommendations and Insights
+## 7. Recommendations and Insights
 
 #### 1. Optimal Content Type:
 
